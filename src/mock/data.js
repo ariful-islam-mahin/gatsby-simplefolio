@@ -1,8 +1,11 @@
 import { nanoid } from 'nanoid';
+import project1 from '../images/project1.png';
+import project2 from '../images/project2.png';
+import project3 from '../images/project3.png';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: 'Ariful Islam Mahin', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
@@ -30,7 +33,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: project1,
     title: 'Creative Agency',
     info:
       'This is a single page full-stack web application. Clients can order services and see their ordered services.',
@@ -41,7 +44,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: project2,
     title: 'Apartment Hunt',
     info:
       'This is a single page full-stack house rental application(Team Project). Users can book apartments and see their booking information at the dashboard.',
@@ -51,7 +54,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: project3,
     title: 'Volunteer Network',
     info:
       'Volunteer Network is a social volunteering events website. Users can register as a volunteer & check all registered events.',
@@ -65,7 +68,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'ariful.islam12402@gmail.com',
 };
 
 // FOOTER DATA
@@ -73,28 +76,28 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/ariful-islam-mahin/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/ariful-islam-mahin',
+    },
+    {
+      id: nanoid(),
+      name: 'facebook',
+      url: 'https://www.facebook.com/mahinyayaa/',
+    },
+    {
+      id: nanoid(),
+      name: 'instagram',
+      url: 'https://www.instagram.com/mahin_yayaa/',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
